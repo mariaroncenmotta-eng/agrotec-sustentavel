@@ -1,48 +1,47 @@
-# 🌾 AgroTec Sustentável - Ecofazenda Inteligente
+# 🚜 AgroTec Sustentável: Inovação e Tecnologia para o Campo
 
-> **Projeto integrante do Concurso Agrinho 2026** > *Slogan: Agro forte, futuro sustentável.*
-
----
-
-## 📋 Sobre o Projeto
-
-O **AgroTec Sustentável** é uma proposta de Ecofazenda Inteligente que une a tecnologia e a sustentabilidade no campo. O objetivo principal do projeto é otimizar o uso de recursos naturais (como água e energia) e automatizar processos agrícolas para reduzir o impacto ambiental e aumentar a eficiência da produção.
-
-Este repositório contém o site oficial de apresentação do projeto, incluindo um simulador funcional de gerenciamento de recursos para a fazenda.
+> **Projeto Concurso Agrinho 2026** > *Tema: Sustentabilidade e Inteligência Coletiva no Agronegócio*
 
 ---
 
-## 🚀 Funcionalidades do Site
+## 💡 A Ideia do Projeto
 
-* **Apresentação da Maquete:** Detalhes visuais e explicativos sobre a estrutura física da ecofazenda.
-* **Comedouro Automatizado:** Demonstração de como a automação evita o desperdício de ração e melhora o manejo animal.
-* **Simulador Interativo:** Ferramenta em JavaScript que permite ao usuário testar o equilíbrio entre consumo de energia, água e produção agrícola.
-* **Design Responsivo:** O site foi desenvolvido para ser visualizado perfeitamente em computadores, tablets e celulares.
+O crescimento da população mundial exige um aumento na produção de alimentos, mas isso precisa acontecer sem esgotar os recursos do nosso planeta. O projeto **AgroTec Sustentável** nasce dessa necessidade, trazendo o conceito de uma **Ecofazenda Inteligente**. 
 
----
-
-## 🛠️ Tecnologias Utilizadas
-
-Para a construção deste site, utilizamos tecnologias web padrão (Front-End):
-
-* **HTML5:** Estruturação semântica do conteúdo e das seções.
-* **CSS3:** Estilização visual, layout responsivo (Media Queries) e identidade visual baseada no tema do Agrinho.
-* **JavaScript:** Lógica do simulador interativo, cálculos de sustentabilidade e animações dos botões.
+Através da automação e do monitoramento de dados, mostramos como pequenas e médias propriedades podem economizar água, reduzir o desperdício de insumos na pecuária e adotar fontes de energia limpa (como a solar e a biomassa).
 
 ---
 
-## 📂 Estrutura de Arquivos
+## 💻 O que você vai encontrar neste site?
 
-A organização do repositório segue o padrão exigido:
+O nosso ecossistema digital foi planejado para ser uma plataforma educativa e prática:
+
+* **Painel da Ecofazenda:** Uma vitrine digital explicando o funcionamento de sensores de umidade do solo, captação de água da chuva e energia fotovoltaica.
+* **Maquete Virtual:** Fotos e explicações detalhadas da maquete física construída pela equipe utilizando materiais recicláveis e componentes eletrônicos.
+* **O Simulador AgroTec:** Uma aplicação interativa onde o visitante pode ajustar variáveis (como horas de sol, nível de irrigação e quantidade de animais) para ver o impacto direto no balanço financeiro e ecológico da fazenda.
+
+---
+
+## 🛠️ Especificações Técnicas
+
+O projeto foi inteiramente construído do zero, utilizando boas práticas de desenvolvimento web:
+
+* **Estrutura:** `HTML5` para garantir acessibilidade e uma leitura limpa pelos motores de busca.
+* **Estilo:** `CSS3` personalizado com paleta de cores voltada à natureza (tons de verde, terra e azul), utilizando *Flexbox* e *Grid* para que o site funcione em qualquer tela de celular.
+* **Interatividade:** `JavaScript` assíncrono para processar os dados do simulador em tempo real, sem necessidade de recarregar a página.
+
+---
+
+## 📁 Organização do Repositório
 
 ```text
 agrotec-sustentavel/
-├── img/                       # Pasta com as imagens do projeto
-│   ├── banner.png             # Banner principal do topo
-│   ├── comedouro.png          # Imagem do sistema automatizado
-│   ├── logo-agrotec.png       # Logotipo da equipe
-│   └── maquete-geral.png      # Foto/Esquema da maquete
-├── index.html                 # Página principal do site
-├── README.md                  # Documentação do projeto (este arquivo)
-├── script.js                  # Comportamentos e simulador
-└── style.css                  # Estilos e cores
+├── img/                       # Mídias e Ilustrações do Projeto
+│   ├── banner.png             # Imagem de destaque da página inicial
+│   ├── comedouro.png          # Detalhe do protótipo de alimentação automatizada
+│   ├── logo-agrotec.png       # Identidade visual da equipe
+│   └── maquete-geral.png      # Visão panorâmica do projeto físico
+├── index.html                 # Código-fonte da página principal
+├── README.md                  # Manual de documentação (este arquivo)
+├── script.js                  # Motor de cálculo do simulador
+└── style.css                  # Arquivo de estilos visuais
