@@ -29,19 +29,3 @@ O projeto foi inteiramente construído do zero, utilizando boas práticas de des
 * **Estrutura:** `HTML5` para garantir acessibilidade e uma leitura limpa pelos motores de busca.
 * **Estilo:** `CSS3` personalizado com paleta de cores voltada à natureza (tons de verde, terra e azul), utilizando *Flexbox* e *Grid* para que o site funcione em qualquer tela de celular.
 * **Interatividade:** `JavaScript` assíncrono para processar os dados do simulador em tempo real, sem necessidade de recarregar a página.
-
----
-
-## 📁 Organização do Repositório
-
-```text
-agrotec-sustentavel/
-├── img/                       # Mídias e Ilustrações do Projeto
-│   ├── banner.png             # Imagem de destaque da página inicial
-│   ├── comedouro.png          # Detalhe do protótipo de alimentação automatizada
-│   ├── logo-agrotec.png       # Identidade visual da equipe
-│   └── maquete-geral.png      # Visão panorâmica do projeto físico
-├── index.html                 # Código-fonte da página principal
-├── README.md                  # Manual de documentação (este arquivo)
-├── script.js                  # Motor de cálculo do simulador
-└── style.css                  # Arquivo de estilos visuais
